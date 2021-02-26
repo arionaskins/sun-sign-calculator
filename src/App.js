@@ -26,12 +26,12 @@ export default App;
 
 const Title = () => {
   return (
-          <div>
-            <h1 className='appTitle'>WHAT'S MY SUN SIGN?</h1>
-          </div>
-
+    <div id='title-div'>
+      <h1>SUN SIGN CALCULATOR</h1>
+    </div>
   )
 }
+
 
 
 // NEXT TO DO:

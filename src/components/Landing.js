@@ -25,13 +25,13 @@ class Landing extends React.Component {
             return (
                     <div className='content-container' id='landing-container'> 
                         <p id='about-info'>The <b>Sun</b> (also known as a luminary and a star) represents the self, one’s personality and ego, the spirit and what it is that makes the individual unique.
-                        It is our identity and our face to the world.
-                        The sun also speaks to creative ability and the power of the individual to meet the challenges of everyday life.
-                        The sign of one's natal sun represents the energies expected to be present throughout life.
+                        It is our identity and our face to the world.</p>
+                        <p id='about-info'>The sun also speaks to creative ability and the power of the individual to meet the challenges of everyday life.</p>
+                        <p id='about-info'>The sign of one's natal sun represents the energies expected to be present throughout life.
                         </p>
-                        <a href='https://cafeastrology.com/sun.html'>Learn more about </a>
+                        <a href='https://cafeastrology.com/sun.html'>Learn more about the Sun</a>
                         <div>
-                          <button id='btn' type="button" onClick={this.handleStartBtn}>GET STARTED</button> 
+                          <button id='btn' type="button" onClick={this.handleStartBtn}>GET STARTED!</button> 
                         </div>
                     </div> )
       } else {
@@ -44,22 +44,3 @@ class Landing extends React.Component {
 
 export default Landing;
 
-
-
-export const Title = () => {
-  return (
-    <div id='title-div'>
-      <h1>WHAT'S MY SUN SIGN?</h1>
-    </div>
-  )
-}
-
-
-  
-//   render() {
-//     return (
-//     <div>
-//         <Description />
-//         <UserResults />
-//     </div> )
-// }}
