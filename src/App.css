@@ -1,34 +1,4 @@
-
-@media only screen  and (max-width : 767px) {
-  body {
-    font-family: 'Roboto Slab', serif;   
-  }
-   
-   
-   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway', sans-serif;
-   }
-
-.wrapper {
-  
-height: 100vh;
-background-position: center;
-background-repeat: no-repeat;
-background-color: rgb(255, 255, 255);
-background-size: cover;
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: center;
-  }
-
-  .container {
-    background-color: rgb(240, 234, 214);
-    width: 70vw;
-    box-shadow:-1px -1px 8px 20px rgba(0, 0, 0, 0.2), 3px 8px 20px 9px rgba(0, 0, 0, 0.2);
-    }
-}
-
+/* large viewport UI */
 @media only screen  and (min-width : 768px) {
   body {
     font-family: 'Roboto Slab', serif;   
@@ -42,13 +12,7 @@ justify-content: center;
   background-color: rgb(240, 234, 214);
   width: 70vw;
   box-shadow:-1px -1px 8px 20px rgba(0, 0, 0, 0.2), 3px 8px 20px 9px rgba(0, 0, 0, 0.2);
-  /* height: 60vh;
-  width: 100vh; 
-   new 
-padding-top: 1.5rem;
-padding-bottom: 1.5rem;
-  width: 60%; */
-}
+  }
 
 
 .wrapper {
@@ -156,31 +120,37 @@ select:hover , #btn:hover, #start-over-btn:hover, input:hover, input:hover label
 #year, #month-selector {
   margin-left: 0.4rem;
 }
-/* sel, inp,
-width: 6rem;
-height: 3em;
-padding: .25em;
-text-align: center;
-} */
+
 }
 
-/* titleD
-    width: 100vh;
+/* small viewport UI */
+@media only screen  and (max-width : 767px) {
+  body {
+    font-family: 'Roboto Slab', serif;   
+  }
+   
+   
+   h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+   }
+
+    .wrapper {
+    background-image: url(./img/background-mobile.jpg);
+    height: 100vh;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: rgb(240, 234, 214);
-    background-position: center center;
+    align-items: center;
+    justify-content: center;
+      }
+
+      .container {
+        background-color: rgb(240, 234, 214);
+        width: 70vw;
+        box-shadow:-1px -1px 8px 20px rgba(0, 0, 0, 0.2), 3px 8px 20px 9px rgba(0, 0, 0, 0.2);
+        }
 }
-
-
-
-
-dob input cont
-flex 
-
-*/    
-/* containfer after sunsigndiv 
-min-width: 70%;
-height: 65vh;
-} */
