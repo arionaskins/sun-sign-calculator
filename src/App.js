@@ -27,7 +27,7 @@ export default App;
 const Title = () => {
   return (
     <div id='title-div'>
-      <h1>SUN SIGN CALCULATOR</h1>
+      <h1>🌞 SUN SIGN CALCULATOR 🌞</h1>
     </div>
   )
 }
