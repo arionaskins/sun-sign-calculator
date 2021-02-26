@@ -5,7 +5,7 @@ Written and compiled in JS and React by me :) <br><br>
 ## App Motivation
 [Astrology](https://www.astrology.com/us/home.aspx) has been a tool that I have been interested in for a while now, and it is becoming mainstream within numerous social outlets/platforms. Personally, astrology can help me gain insight on challenges by applying interpretation methods to aspects and placements within my natal [birth chart](https://www.allure.com/story/astrology-birth-chart-reading). <br> 
 
-The [sun](https://www.astrology.com/astrology-101/planets/sun) represents the ego and personality of one, and the sign it is in during birth can influence the engergies one displays. I wanted to create a simple app that can allow someone beginnging to learn astrology to be able to know their sun sign, one of the most influential placements within a [birth chart](https://www.allure.com/story/astrology-birth-chart-reading).<br> 
+The [sun](https://www.astrology.com/astrology-101/planets/sun) represents the ego and personality of one, and the sign it is in during birth can influence the energies one displays. I wanted to create a simple app that can allow someone beginning to learn astrology to be able to know their sun sign, one of the most influential placements within a [birth chart](https://www.allure.com/story/astrology-birth-chart-reading).<br> 
 <br>
 I began instructing myself in developing web apps in React recently before starting this, and to test my learning I wanted to create an app that not only served an interesting purpose, but also speaks on something I am passionate about. <br>
 <br>
@@ -24,7 +24,7 @@ While I enjoy learning to develop useful web tools in React, it's component stru
   * *__App folder/properties structure:__*
    Functional Component inheritance and composition issues emerged when handling different states of the app. The change of state component addition caused complications in primarily flexbox styling, granted these have been solved for large screen viewports. 
 * *__Repository deployment issues:__*
-After using the `create-react-app` terminal command to create the intial app, I installed dependencies to the local app subfolder in `/src`, so when I tried to deploy originally with Heroku the build failed due to webpack errors. After initializing a new repository and pulling necessary files (within the subdirectory), I was successfully able to deploy my first React app! :clap:
+After using the `create-react-app` terminal command to create the initial  app, I installed dependencies to the local app subfolder in `/src`, so when I tried to deploy originally with Heroku the build failed due to webpack errors. After initializing a new repository and pulling necessary files (within the subdirectory), I was successfully able to deploy my first React app! :clap:
 
 ## Next Steps
 - [x] responsive UI for large viewports
