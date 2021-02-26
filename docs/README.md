@@ -16,6 +16,6 @@ __________________________________
 - [ ] markdown docs (readme.md/final.md)
 - [ ] brainstorm and develop user login UI and functionality 
 
-[final documentation](docs/final.md)
+[final documentation](https://github.com/arionaskins/sun-sign-calculator/blob/master/docs/final.md)
 
 *Last updated:* ***2/26/2021***
