@@ -13,17 +13,17 @@ I began instructing myself in developing web apps in React recently before start
 ## Technical Strategies &/or Decisions Rationale
 
 While I chose not to do my first individual project in React on a data-heavy topic, I utilized the React Components library in serving the app's designed function. In addition to this, there were a few technical decisions made based on my progress at the time:
-* Including images as assets within the source code instead of using href webpage source links
+* *__Including images as assets within the source code instead of using href webpage source links:__*
 I wanted to keep network traffic low and the size of the application as a whole is not large. Keeping these images internal to the app's filesystem will hopefully aid in quick performance runtimes. 
-* Deploy using Heroku PaaS
+* *__Deploy using Heroku PaaS:__*
 I have use Heroku services in the past for previous web development projects and I wanted to continue to expand my portfolio with the platform. I have recently been learning GCP services and deliberating in utilizing offered Google App Engine, but as stated previously, I wanted to advance and expand what I already had. <br>
 
 ## Challenges Faced and Impact on Final Design
-* __Developing the entire app in React.js:__
+* *__Developing the entire app in React.js:__*
 While I enjoy learning to develop useful web tools in React, it's component structure can be tricky in relation to the root DOM element. I wanted to tackle approaching this application head on to "learn as i go", and I feel as if I gained valuable knowledge and a few tips on developing in React.
-  * __App folder/properties structure:__
+  * *__App folder/properties structure:__*
    Functional Component inheritance and composition issues emerged when handling different states of the app. The change of state component addition caused complications in primarily flexbox styling, granted these have been solved for large screen viewports. 
-* __Repository deployment issues:__
+* *__Repository deployment issues:__*
 After using the `create-react-app` terminal command to create the intial app, I installed dependencies to the local app subfolder in `/src`, so when I tried to deploy originally with Heroku the build failed due to webpack errors. After initializing a new repository and pulling necessary files (within the subdirectory), I was successfully able to deploy my first React app! :clap:
 
 ## Next Steps
@@ -34,4 +34,4 @@ After using the `create-react-app` terminal command to create the intial app, I 
 
 
 
-[Back to the readme, please!](https://github.com/arionaskins/sun-sign-calculator/blob/master/docs/README.md)
+[Back to the readme doc, please!](https://github.com/arionaskins/sun-sign-calculator/blob/master/docs/README.md)
