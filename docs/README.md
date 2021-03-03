@@ -18,4 +18,4 @@ __________________________________
 
 [final documentation](https://github.com/arionaskins/sun-sign-calculator/blob/master/docs/final.md)
 
-*Last updated:* ***2/26/2021***
+*Last updated:* ***3/3/2021***
