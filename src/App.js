@@ -15,7 +15,8 @@ class App extends React.Component {
             <Title />
              <Landing />
              </div>
-            </div></div>
+          </div>
+        </div>
         );
     }
   
@@ -32,11 +33,4 @@ const Title = () => {
   )
 }
 
-
-
-// NEXT TO DO:
-// handle required inputs
-// type requirements for inputs
-//pic files assets and icons?
-//styling ofc
 
