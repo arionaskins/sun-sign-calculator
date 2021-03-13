@@ -40,6 +40,10 @@
   max-width: 7.5rem;
   height: auto;
 }
+
+#landing-container {
+  padding: 2rem;
+}
 #day {
   width: 2em;
 }
